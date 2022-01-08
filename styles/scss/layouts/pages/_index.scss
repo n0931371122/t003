@@ -1,0 +1,109 @@
+#index{
+    &.menuMode{
+        .cover{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+    .main-section{
+        min-height: 100vh;
+        .logo{
+            width: 90px;
+        }
+        .menu{
+            li{
+                &:nth-child(odd){
+                    a{
+                        &:hover{
+                            &+.img-inner:after{
+                                transform: translateX(100%);
+                            }
+                        }
+                    }
+                    .img-inner{
+                        left: 0;
+                        transform: translate(-20px,-50%);
+                        &::after{
+                            background: linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1) 10%);
+                        }
+                    }
+                }
+                &:nth-child(even) {
+                    a {
+                        &:hover {
+                            &+.img-inner:after {
+                                transform: translateX(-100%);
+                            }
+                        }
+                    }
+                    .img-inner {
+                        right: 0;
+                        transform: translate(20px,-50%);
+                        &::after{
+                            background: linear-gradient(to left,rgba(255,255,255,0),rgba(255,255,255,1) 10%);
+                        }
+                    }
+                }
+                a{
+                    color:#C4C4C4;
+                    padding: 1px 0;
+                    transition: all .3s;
+                    width: 600px;
+                    &:hover{
+                        color:black;
+                        &+.img-inner{
+                            opacity: 1;
+                            transform: translate(0px,-50%);
+                            img{
+                                transform: scale(1.02);
+                            }
+                        }
+                    }
+                }
+                .img-inner {
+                    position: absolute;
+                    top: 50%;
+                    opacity: 0;
+                    transition: all .3s;
+                    &::after{
+                        content:"";
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        transition: all 1s;
+                    }
+                    img{
+                         transition: all 2s;
+                         transition-delay: 1s;
+                    }
+                }
+            }
+        }
+    }
+
+    .cover{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .title{
+            font-size: 54px;
+            letter-spacing: 16px;
+        }
+        .subTitle{
+            font-size: 28px;
+            letter-spacing: 10px;
+        }
+        .enter{
+            letter-spacing: 3px;
+        
+            .enter-icon{
+                width: 7px;
+            }
+        }
+    } 
+}

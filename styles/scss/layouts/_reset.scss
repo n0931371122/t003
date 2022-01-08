@@ -1,0 +1,70 @@
+body{
+	font-family:"Cormorant Infant","Noto Sans TC";
+	font-size: 18px;
+	color:#676767;
+}
+
+
+a{
+	transition: color .3s;
+}
+img{
+	max-width: 100%;
+}
+input,button,textarea{
+	outline: 0;
+	 -webkit-appearance: none;
+
+}
+input{
+	padding: 0;
+	border: 0;
+	background: transparent; 
+}
+textarea{
+	border:0;
+	outline:0;
+}
+button{
+	border:0;
+	background: transparent;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.ns{
+	list-style: none;
+}
+.swiper-button{
+  margin: 0;
+  outline:none;
+  &::after{
+    display: none;
+  }
+}
+.swiper-pagination-bullet{
+  opacity: 1;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #C8C8C8;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #C8C8C8;
+}
+ 
+::-o-placeholder { /* Mozilla Firefox 19+ */
+  color: #C8C8C8;
+}
+
+::-ms-placeholder { /* Internet Explorer 10+ */
+  color: #C8C8C8;
+}
+
+::-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #C8C8C8;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before{
+	width: auto;
+}

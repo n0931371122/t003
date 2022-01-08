@@ -1,0 +1,31 @@
+@charset 'utf-8';
+@import 'plugins/bootstrap/bootstrap.scss'; 
+@import url('scss/plugins/swiper-bundle.min.css');
+@import url('font/css/fontello.css'); 
+@import 'scss/plugins/sweetalert2.min.css';
+// @import url('scss/plugins/mCustomScrollbar.css');
+@import url('scss/plugins/bootstrap-select.min.css'); 
+// @import url('scss/plugins/jquery.fancybox.min.css');
+// @import url('scss/plugins/slick.css');
+// @import url('scss/plugins/slick-theme.css');
+// config
+@import 'config/_config.scss';
+@import 'config/_fontSize.scss';
+// layouts
+@import 'layouts/_reset.scss';
+@import 'layouts/_common.scss';
+@import 'layouts/_layouts.scss';
+@import 'layouts/_keyframes.scss';
+ 
+
+@font-face {
+    font-family:"RAGE";
+    src:url("RageItalicStd.otf");
+}
+
+// pages
+
+@import 'layouts/pages/_index.scss';
+
+
+// @import 'layouts/pages/_404.scss';

@@ -1,0 +1,172 @@
+@mixin width($px1,$px2,$px3){
+  width: $px1;
+  @if $px2!="" {
+    @media(max-width:1199px) {
+     width: $px2;
+    }
+  }
+  @if $px3 !="" {
+    @media(max-width:767px) {
+      width: $px3;
+    }
+  }
+}
+@mixin height($px1,$px2,$px3){
+  height: $px1;
+  @if $px2 !="" {
+    @media(max-width:1199px) {
+      height: $px2;
+    }
+  }
+  @if $px3 !="" {
+    @media(max-width:767px) {
+      height: $px3;
+    }
+  }
+}
+@mixin z-index($num){
+  z-index:$num;
+}
+@mixin max-width($px){
+  max-width:$px;
+}
+@mixin font-family($ff){
+  font-family: $ff;
+}
+@mixin textHoverColor($color){
+  transition: all .3s;
+  &:hover{
+    color:$color !important;
+  }
+}
+@mixin bgHoverColor($color) {
+  transition: all .3s;
+  &:hover {
+    background: $color !important;
+  }
+}
+@mixin borderHoverColor($color) {
+  transition: all .3s;
+
+  &:hover {
+    border: $color !important;
+  }
+}
+@mixin border-radius($px){
+  border-radius: $px;
+}
+@mixin letter-spacing($px) {
+  letter-spacing: $px;
+}
+
+// .max400 {@include max-width(400px)}
+// .max460{@include max-width(460px)} 
+// .max530 {@include max-width(530px)}
+// .max640{@include max-width(640px)}
+// .max650 {@include max-width(650px)}
+// .max772 {@include max-width(772px)}
+// .max800 {@include max-width(800px)}
+// .max972{@include max-width(972px)}
+// .max1306{@include max-width(1306px)}
+// .max1380{@include max-width(1380px)}
+.max1480{@include max-width(1480px)}
+// .max1640{@include max-width(1640px)}
+
+// .w300{@include width(300px, "", 100%)}
+// .w230{@include width(230px,"","")}
+// .w150{@include width(150px, "", "")}
+// .w90{@include width(90px,70px,60px)}
+// .w60{@include width(60px,"","")}
+// .w40{@include width(40px, "", "")}
+// .w20{@include width(20px, "", "")}
+
+// .h90{@include height(90px,70px,60px)} 
+// .h60{@include height(60px,"",50px)}
+// .h50{@include height(50px, "", 45px)}
+// .h40{@include height(40px, "", "")} 
+// .h20{@include height(20px, "", "")} 
+
+.z-1{@include z-index(1)}
+// .z-2{@include z-index(2)}
+// .z-3{@include z-index(3)}
+
+// .text-hover-white{@include textHoverColor(white)}
+// .text-hover-lightBlue{@include textHoverColor($lightBlue)}
+// .text-hover-primary{@include textHoverColor($primary)}
+// .text-hover-primaryHover{@include textHoverColor($primaryHover)}
+
+// .bg-hover-lightBlue{@include bgHoverColor($lightBlue)}
+// .bg-hover-primary{@include bgHoverColor($primary)}
+// .bg-hover-primaryHover{@include bgHoverColor($primaryHover)}
+// .bg-hover-grayF5{@include bgHoverColor($grayF5)}
+
+
+// .border-hover-primaryHover {@include borderHoverColor($primaryHover)}
+
+
+
+
+.NotoSerifTC{@include font-family("Noto Serif TC")}
+.CormorantInfant{@include font-family("Cormorant Infant")}
+
+// .rounded-35{@include border-radius(35px)}
+// .rounded-10{@include border-radius(10px)}
+// .rounded-5{@include border-radius(5px)}
+
+// .les08{@include letter-spacing(0.8px)}
+.les1{@include letter-spacing(1px)}
+.les2{@include letter-spacing(2px)}
+
+// .lh-075{
+//   line-height: 0.75;
+// }
+// .lh-17{
+//   line-height: 1.7;
+// }
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .line1{
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }
+// .line2{
+//   display: -webkit-box;
+//   -webkit-line-clamp: 2; 
+//   -webkit-box-orient: vertical;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }
+
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+
+.ns{
+  list-style: none;
+}
+
+
+// .background-cover{
+//   background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+// .cursor{
+//   cursor: pointer;
+// }
+// .order-lg-2{
+//   @media(min-width:992px){
+//     order:2;
+//   }
+// }
+
+
