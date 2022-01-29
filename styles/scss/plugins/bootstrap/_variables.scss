@@ -18,14 +18,8 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
-$gray96:#969696 !default;
-$gray32:#323232 !default;
-$grayF5:#F5F5F5 !default;
-$gray64:#646464 !default;
-$grayDC:#DCDCDC !default;
-$grayC8:#C8C8C8 !default;
-$gray90:#909090 !default;
-$grayDB:#DBDBDB !default;
+$grayF7:#F7F7F7;
+$gray9A:#9A9A9A;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -50,20 +44,14 @@ $grays: (
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
-$red:   #FD0D1B !default;
+$red: #D70025 !default;
 $orange: #FFA700 !default;
 $yellow:  #9D7D53 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
-
 $blue: #1F2C5D !default;
-$lightBlue: #8EA5FF !default;
-$blue79809E: #79809E !default;
-$blue4C567D: #4C567D !default; 
-$blue73868D: #73868D !default;
-$blueD1D4DE: #D1D4DE !default;
-$primaryHover:#33458B !default;
+
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -79,24 +67,12 @@ $colors: (
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800,  
-
+  "gray-dark":  $gray-800,   
   "blue": $blue,
-  "lightBlue":$lightBlue,
-  "blue79809E": $blue79809E,
-  "blue4C567D": $blue4C567D,
-  "blue73868D": $blue73868D,
-  "blueD1D4DE": $blueD1D4DE,
-  "primaryHover": $primaryHover,
+
   
-  "gray96": $gray96,
-  "gray32": $gray32,
-  "grayF5": $grayF5,
-  "gray64": $gray64,
-  "grayDC": $grayDC,
-  "grayC8": $grayC8,
-  "gray90": $gray90,
-  "grayDB": $grayDB,
+  "grayF7":$grayF7,
+  "gray9A":$gray9A,
 ) !default;
 // scss-docs-end colors-map
  
@@ -124,21 +100,9 @@ $theme-colors: (
   "yellow"     :$yellow,
   "orange": $orange,
   "red": $red,
-  "lightBlue":$lightBlue,
-  "blue79809E":$blue79809E,
-  "blue4C567D":$blue4C567D,
-  "blue73868D":$blue73868D,
-  "blueD1D4DE":$blueD1D4DE,
-  "primaryHover":$primaryHover,
   
-  "gray96": $gray96,
-  "gray32"     :$gray32,
-  "grayF5" :$grayF5,
-  "gray64" :$gray64,
-  "grayDC" :$grayDC,
-  "grayC8": $grayC8,
-  "gray90": $gray90,
-  "grayDB": $grayDB,
+  "grayF7":$grayF7,
+  "gray9A":$gray9A,
   "black":$black
 ) !default;
 // scss-docs-end theme-colors-map
@@ -330,7 +294,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray32 !default;
+$body-color:                $black !default;
 $body-text-align:           null !default;
 
 

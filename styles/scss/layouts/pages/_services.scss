@@ -1,0 +1,51 @@
+#services{
+    .section{
+        &::after{
+            content:"";
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 1540px;
+            height: 100%;
+            background: $grayF7;
+            z-index: -1;
+        }
+        .object-fit{
+            height: 490px;
+        }
+
+        .text-inner{
+            max-width: 466px;
+        } 
+        .match-link{
+            img{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        }
+    }
+    @media(max-width:1366px){
+        .section::after{
+            width: 100%;
+        }
+    }
+    @media(max-width:991px){
+        .section {
+            .object-fit {
+                height: 394px;
+            }
+            .text-inner {
+                max-width:initial;
+            }
+        }
+    }
+    @media(max-width:575px) {
+        .section {
+            .object-fit {
+                height: auto;
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@
 @import url('scss/plugins/swiper-bundle.min.css');
 @import url('font/css/fontello.css'); 
 @import 'scss/plugins/sweetalert2.min.css';
-// @import url('scss/plugins/mCustomScrollbar.css');
+@import url('scss/plugins/mCustomScrollbar.css');
 @import url('scss/plugins/bootstrap-select.min.css'); 
 // @import url('scss/plugins/jquery.fancybox.min.css');
 // @import url('scss/plugins/slick.css');
@@ -26,6 +26,20 @@
 // pages
 
 @import 'layouts/pages/_index.scss';
+@import 'layouts/pages/_about.scss';
+@import 'layouts/pages/_new.scss';
 
 
-// @import 'layouts/pages/_404.scss';
+@import 'layouts/pages/_cases.scss';
+@import 'layouts/pages/_projects.scss';
+
+
+@import 'layouts/pages/_designer.scss';
+@import 'layouts/pages/_designer-projects.scss';
+
+
+
+@import 'layouts/pages/_result.scss';
+@import 'layouts/pages/_services.scss';
+@import 'layouts/pages/_contact.scss';
+@import 'layouts/pages/_sitemap.scss';

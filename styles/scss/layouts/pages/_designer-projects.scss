@@ -1,0 +1,64 @@
+#designer-projects{
+    .sub{
+        &::after{
+            left: 0;
+            transform: none;
+        }
+
+    }
+    .person{
+        width: 120px;
+        height:120px;    
+    }
+    .info-section{
+        flex:0 0 auto;
+        width: 27%;
+        top: 160px;
+        .more {
+            background: url(images/designer-projects/arrow.png);
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: left;
+            background-size: 100%;
+        }
+    }
+    .projects-section{
+        flex:0 0 auto;
+        width: 73%;
+        border-left:1px solid #CFCFCF;
+        .row{
+            margin-left: -50px;
+            margin-right: -50px;
+            >div{
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
+    }
+    @media(max-width:1599px){
+        .projects-section {
+            .row {
+                margin-left: -12px;
+                margin-right: -12px;
+
+                >div {
+                    padding-left: 12px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+    @media(max-width:991px){
+        .info-section{
+            width: 100%;
+        }
+        .projects-section{
+            width: 100%;
+            border:0
+        }
+        .sub::after{
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

@@ -1,0 +1,69 @@
+#contact{
+    .information-block{
+        &::before{
+            content:"";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 64%;
+            transform:translateY(-50%);
+            width: 45%;
+            height: 323px;
+            background:#F7F7F7;
+            z-index: -1;
+        }
+    }
+    .information {
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 1px;
+            height: 150px;
+            background: #CFCFCF;
+            top:calc(100% + 30px);
+            left: 30px;
+        }
+    }
+    .img-inner{
+        .object-fit{
+            height: 974px;
+        }
+    }
+    .form-block{
+        background: url(images/contact/bg.jpg);
+        .row{
+            margin-left: -26px;
+            margin-right: -26px;
+            >*{
+                padding-left: 26px;
+                padding-right: 26px;
+            }
+        }
+    }
+    .form-field{
+        border-bottom:1px solid black;
+        padding: 16px 0;
+        label{
+            flex:0 0 90px;
+        }
+        input{
+            font-family: "Noto Sans TC";
+        }
+    }
+    @media(max-width:1599px){
+        .img-inner .object-fit{
+            height: 710px;
+        }
+    }
+    @media(max-width:1199px) {
+        .img-inner .object-fit {
+            height: 560px;
+        }
+    }
+        @media(max-width:767px){
+            .information::after{
+                display: none;
+            }
+        }
+}

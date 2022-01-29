@@ -1,12 +1,25 @@
 #index{
     &.menuMode{
+        .main-section{
+            opacity: 1;
+        }
         .cover{
             opacity: 0;
             pointer-events: none;
         }
     }
+    #holder {
+        position: fixed;
+        top: 0;
+        left: 60%;
+        bottom: 0;
+        right: 0;
+    }
     .main-section{
+        opacity: 0;
         min-height: 100vh;
+        background: rgba(255, 255, 255, 0.5);
+        position: relative;
         .logo{
             width: 90px;
         }
@@ -90,6 +103,48 @@
         bottom: 0;
         left: 0;
         right: 0;
+        .logo-wrapper{
+            width: 110px; 
+            height: 110px;
+            .z{
+                position: absolute;
+                top: 0;
+                left: -29px;
+                .path{
+                    width: 34px;
+                }
+                
+            }
+            .u{
+                position: absolute;
+                top: -26px;
+                left:5px;
+                .path {
+                    width: 33px;
+                }
+            }
+            .m{
+                position: absolute;
+                top: 18px;
+                left: 10.5px;
+                .path {
+                    width: 49px;
+                }
+            }
+            .i{
+                position: absolute;
+                top: -22px;
+                left: 32.5px;
+                .path {
+                    width: 5px;
+                }
+            }
+            .circle{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        }
         .title{
             font-size: 54px;
             letter-spacing: 16px;

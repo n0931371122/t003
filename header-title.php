@@ -19,7 +19,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="styles/images/web-icon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;500&family=Noto+Sans+TC&family=Noto+Serif+TC:wght@400;500;600&family=WindSong&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Pinyon+Script&family=Cormorant+Infant:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+SC:wght@600&family=Noto+Serif+TC:wght@300;400;500;600&family=WindSong&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="styles/scss/plugins/aos.css" />
 <link rel="stylesheet" type="text/css" href="styles/style.css" />

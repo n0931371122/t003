@@ -1,5 +1,5 @@
 body{
-	font-family:"Cormorant Infant","Noto Sans TC";
+	font-family:"Cormorant Infant","Noto Serif TC";
 	font-size: 18px;
 	color:#676767;
 }
@@ -7,6 +7,10 @@ body{
 
 a{
 	transition: color .3s;
+	color:inherit;
+	&:hover{
+		color:inherit;
+	}
 }
 img{
 	max-width: 100%;
@@ -27,7 +31,9 @@ textarea{
 }
 button{
 	border:0;
+	padding: 0;
 	background: transparent;
+	color:inherit;
 }
 ul{
 	padding: 0;
@@ -47,23 +53,28 @@ ul{
   opacity: 1;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
-  color: #C8C8C8;
+  color: #C0C0C0;
+  font-size: 16px;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color: #C8C8C8;
+  color: #C0C0C0;
+  font-size: 16px;
 }
  
 ::-o-placeholder { /* Mozilla Firefox 19+ */
-  color: #C8C8C8;
+  color: #C0C0C0;
+  font-size: 16px;
 }
 
 ::-ms-placeholder { /* Internet Explorer 10+ */
-  color: #C8C8C8;
+  color: #C0C0C0;
+  font-size: 16px;
 }
 
 ::-ms-input-placeholder { /* Internet Explorer 10+ */
-  color: #C8C8C8;
+  color: #C0C0C0;
+  font-size: 16px;
 }
 [class^="icon-"]:before, [class*=" icon-"]:before{
 	width: auto;

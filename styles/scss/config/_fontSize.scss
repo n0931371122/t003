@@ -3,22 +3,45 @@
 @mixin fz($size) {
   font-size: $size;
 }
-//60 20
-
+//160 92 90 80 60 52 50 48 46 42 40 32 28 22 20 16 15
+.fz-160 {
+  @include fz(160px);
+}
+.fz-92 {
+  @include fz(92px);
+}
+.fz-90 {
+  @include fz(90px);
+}
+.fz-80 {
+  @include fz(80px);
+}
 .fz-60 {
   @include fz(60px);
 }
-.fz-60{
-  @include fz(60px);
+.fz-52{
+  @include fz(52px);
 }
 .fz-50{
   @include fz(50px);
 }
+.fz-48 {
+  @include fz(48px);
+}
+.fz-46 {
+  @include fz(46px);
+}
 .fz-44 {
   @include fz(44px);
 }
+.fz-42 {
+  @include fz(42px);
+}
 .fz-40 {
   @include fz(40px);
+}
+.fz-32 {
+  @include fz(32px);
 }
 .fz-30{
   @include fz(30px);
@@ -53,13 +76,54 @@
 .fz-18{
   @include fz(18px);
 } 
+.fz-16 {
+  @include fz(16px);
+}
+.fz-15 {
+  @include fz(15px);
+}
 .fz-14{
   @include fz(14px);
 }
 .fz-12{
   @include fz(12px);
 }
+@media (max-width:1599px) {
+  .fz-160 {
+    @include fz(140px);
+  }
+  .fz-90 {
+    @include fz(84px);
+  }
+}
+@media (max-width:1399px) {
+  .fz-160 {
+    @include fz(120px);
+  }
+  .fz-90 {
+    @include fz(76px);
+  }
+
+}
 @media (max-width:1199px){
+  .fz-160 {
+    @include fz(100px);
+  }
+  .fz-92 {
+    @include fz(60px);
+  }
+  .fz-90 {
+    @include fz(60px);
+  }
+  .fz-80 {
+    @include fz(55px);
+  }
+  .fz-60{
+    @include fz(50px);
+  }
+  .fz-42 {
+    @include fz(38px);
+  }
   .fz-30{
     @include fz(26px);
   }
@@ -69,17 +133,56 @@
 } 
 
 @media (max-width:767px) {
+  .fz-160 {
+    @include fz(70px);
+  }
+  .fz-92 {
+    @include fz(34px);
+  }
+  .fz-90 {
+    @include fz(34px);
+  }
+  .fz-80 {
+    @include fz(40px);
+  }
   .fz-70 {
     @include fz(40px);
   }
+  .fz-60 {
+    @include fz(32px);
+  }
+  .fz-52 {
+    @include fz(30px);
+  }
   .fz-50 {
+    @include fz(30px);
+  }
+  .fz-48 {
     @include fz(30px);
   }
   .fz-44 {
     @include fz(36px);
   }
+  .fz-42 {
+    @include fz(30px);
+  }
+  .fz-40 {
+    @include fz(30px);
+  }
+  .fz-32 {
+    @include fz(26px);
+  }
   .fz-30 {
     @include fz(22px);
+  }
+  .fz-24 {
+    @include fz(20px);
+  }
+  .fz-22 {
+    @include fz(18px);
+  }
+  .fz-20 {
+    @include fz(18px);
   }
 }
 

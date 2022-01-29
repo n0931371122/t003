@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-281,-74.1)">
+        <g transform="matrix(1.03156,0,0,1,-60.571,84)">
+            <g id="Icon-Search" transform="matrix(0.448043,0,0,0.462185,340.887,92.6588)">
+                <path id="Fill-1" d="M-2.3,-182.9C-13,-182.9 -21.8,-191.6 -21.8,-202.4C-21.8,-213.1 -13.1,-221.9 -2.3,-221.9C8.5,-221.9 17.2,-213.2 17.2,-202.4C17.1,-191.6 8.4,-182.9 -2.3,-182.9ZM-2.3,-219C-11.5,-219 -19,-211.5 -19,-202.3C-19,-193.1 -11.5,-185.6 -2.3,-185.6C6.9,-185.6 14.4,-193.1 14.4,-202.3C14.3,-211.5 6.8,-219 -2.3,-219Z" style="fill:white;fill-rule:nonzero;"/>
+                <path id="Fill-2" d="M23.7,-174.2L10.1,-187.7L12.3,-189.9L25.8,-176.3L23.7,-174.2" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
