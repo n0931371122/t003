@@ -6,9 +6,9 @@
             padding-left: 12px;
             padding-right: 12px;
             flex: 0 0 auto;
-            width: calc((100% - 251px) / 2);
+            width: calc((100% - 275px) / 2);
             &:nth-child(3n+3) {
-                width: 251px;
+                width: 275px;
             }
             .item {
                 max-width: 251px;

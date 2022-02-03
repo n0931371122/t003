@@ -3,7 +3,10 @@ body{
 	font-size: 18px;
 	color:#676767;
 }
-
+main{
+	opacity: 0;
+	transition: opacity .3s;
+}
 
 a{
 	transition: color .3s;
@@ -78,4 +81,11 @@ ul{
 }
 [class^="icon-"]:before, [class*=" icon-"]:before{
 	width: auto;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-transition-delay: 9999s;
+	transition-delay: 9999s;
 }

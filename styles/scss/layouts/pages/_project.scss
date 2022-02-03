@@ -1,0 +1,168 @@
+#project{
+    .section{
+        .info-block{
+            >div{
+                border-bottom:1px solid #DDDDDD;
+                padding: 23px 0;
+                &:nth-child(1),
+                &:nth-child(3){
+                    position: relative;
+                    &::after{
+                        content:""; 
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        transform: translateY(-50%);
+                        width: 1px;
+                        height: 34px;
+                        background: #DDDDDD; 
+                    }
+                }
+                >span:nth-child(1){
+                    flex:0 0 100px;
+                }
+            }
+        }
+        .icon-address{
+            font-size: 26px;
+            right: 0;
+        }
+        .icon-twitter{
+            font-size: 16px;
+        }
+        .icon-line {
+            font-size: 17px;
+        }
+        .back{
+            padding: 17.5px 78px;
+            border:1px solid black;
+            margin-right: 30px;
+
+            &::after {
+                content: url(images/contact/arrow.png);
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(60%, -50%);
+            }
+        }
+        .swiper-container{
+            cursor: url(images/project/mouse.png),pointer;
+        }
+        .swiper-slide{
+            width: auto !important;
+            opacity: 0.5;
+            transition: all .3s;
+            pointer-events: none;
+            &.swiper-slide-active{
+                pointer-events: all;
+                opacity: 1;
+                
+            }
+            img{
+                height: 622px;
+            }
+        }
+        .swiper-pagination{
+            width: auto;
+            left: 73.5%;
+            transform: translateX(-50%);
+            .swiper-pagination-current{
+                font-weight: bold;
+            }
+        }
+        .play{
+            width: 90px;
+            height: 90px;
+            background: rgba(255,255,255,0.9);
+            transition: all .3s;
+            &:hover{
+                background: white;
+            }
+        }
+        .link{
+            &:hover {
+                span::after {
+                    transform: scaleX(1);
+                    transform-origin: left;
+                }
+            }
+            span{      
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -6px;
+                    background: black;
+                    height: 1px;
+                    width: 100%;
+                    transform-origin: right;
+                    transform: scaleX(0);
+                    transition: transform .8s cubic-bezier(.16, 1, .3, 1);
+                }
+
+            }
+
+        }
+    }
+    @media(max-width:1199px){
+        .section .swiper-slide img{
+            height: 500px;
+        }
+    }
+    @media(max-width:991px){
+        .section .swiper-slide img {
+            height:400px;
+        }
+        .section .swiper-pagination{
+            left: auto;
+            right: 24px;
+            transform: none;
+        }
+    }
+    @media(max-width:767px){
+        .section{
+            .play{
+                width: 55px;
+                height: 55px;
+                i{
+                    font-size: 12px;
+                }
+            }
+            .info-block>div{          
+                padding: 10px 0;
+                &::after{
+                    display: none !important;
+                }
+            }
+        }
+    }
+    @media(max-width:575px) {
+        .section{
+            .swiper-slide img{
+                height: 200px;
+            }
+            .back{
+                padding: 10px 30px;
+                margin-right: 0;
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+#videoModal{
+    .modal-dialog{
+         max-width: 1058px;
+         padding: 24px;
+        .modal-content{
+            border:0;
+            background: transparent;
+        }
+       
+    }
+}

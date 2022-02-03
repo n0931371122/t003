@@ -40,15 +40,67 @@
                 padding-right: 26px;
             }
         }
+        .submit{
+            padding: 17.5px 78px;
+            border:1px solid black;
+            margin-right: 30px; 
+            &::after{
+                content:url(images/contact/arrow.png);
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(60%,-50%);
+            }
+        }
     }
     .form-field{
-        border-bottom:1px solid black;
+        border-bottom:1px solid #CFCFCF;
         padding: 16px 0;
-        label{
-            flex:0 0 90px;
+        transition: all .3s;
+        &.active{
+            border-bottom:1px solid black;
         }
-        input{
+        &.error{
+            border-bottom:1px solid $red;
+        }
+        &.issue-field{
+            &.error {
+                margin-bottom: 10px;
+            }
+            label.error {
+                position: absolute;
+                bottom: -42px;
+                left: 0;
+            }
+        }
+        &.content-field {
+            &.error {
+                margin-bottom: 10px;
+            }
+            label.error {
+                position: absolute;
+                bottom: -30px;
+                left: 92px;
+            }
+        }
+        .label{
+            flex:0 0 78px;
+            line-height: 1;
+        }
+        input,
+        textarea{
             font-family: "Noto Sans TC";
+            background: transparent;
+            font-size: 16px;
+        }
+        textarea{
+            height: 116px;
+        }
+        label.error{
+            font-family: "Noto Sans TC";
+            font-size: 13px;
+            color:$red;
         }
     }
     @media(max-width:1599px){
@@ -60,10 +112,63 @@
         .img-inner .object-fit {
             height: 560px;
         }
+        .form-block .row{
+            margin-left: -12px;
+            margin-right: -12px;
+            >*{
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+        }
     }
-        @media(max-width:767px){
-            .information::after{
+    @media(max-width:767px){
+        .information::after{
+            display: none;
+        }
+        .form-field{
+            padding: 10px 0;
+            &.error{
+                margin-bottom: 10px;
+            }
+            label.error{
+                position: absolute;
+                bottom: -26px;
+                left: 0;
+            }
+
+        }
+    }
+    @media(max-width:575px){
+        .information-block::before{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            transform: none;
+        }
+        .img-inner .object-fit{
+            height: 350px;
+        }
+        .form-block .submit{
+            padding: 10px 30px;
+            margin-right: 0;
+            &::after{
                 display: none;
             }
         }
+    }
+}
+#sendModal{
+    .modal-dialog{
+        max-width: 490px;
+        .modal-content{
+            border-radius: 0;
+            border:0;
+            background: url(images/contact/modal-bg.jpg);
+        }
+     }
+     @media(max-width:575px){
+         .modal-dialog {
+             padding: 0 24px;
+         }
+     }
 }

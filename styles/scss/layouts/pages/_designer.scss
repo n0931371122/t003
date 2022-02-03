@@ -67,6 +67,9 @@
         }
     }
     @media(max-width:1199px){
+        &::after {
+            height: 400px;
+        }
         .item .img-inner{
             height: 300px;
         }

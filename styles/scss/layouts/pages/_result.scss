@@ -1,4 +1,8 @@
 #result{
+    .sub::after{
+        width: 64px;
+        height: 2px;
+    }
     .item{
         &:hover{
             .img-inner{

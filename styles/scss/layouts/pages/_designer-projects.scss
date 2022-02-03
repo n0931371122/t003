@@ -12,7 +12,7 @@
     }
     .info-section{
         flex:0 0 auto;
-        width: 27%;
+        width: 26.5%;
         top: 160px;
         .more {
             background: url(images/designer-projects/arrow.png);
@@ -24,7 +24,7 @@
     }
     .projects-section{
         flex:0 0 auto;
-        width: 73%;
+        width: 73.5%;
         border-left:1px solid #CFCFCF;
         .row{
             margin-left: -50px;
@@ -33,6 +33,9 @@
                 padding-left: 50px;
                 padding-right: 50px;
             }
+        }
+        .main-inner{
+            flex:0 0 420px;
         }
     }
     @media(max-width:1599px){
@@ -46,6 +49,9 @@
                     padding-right: 12px;
                 }
             }
+            .main-inner{
+                flex:0 0 auto;
+            }
         }
     }
     @media(max-width:991px){
@@ -54,7 +60,10 @@
         }
         .projects-section{
             width: 100%;
-            border:0
+            border:0;
+            .main-inner {
+                flex-shrink: 1;
+            }
         }
         .sub::after{
             left: 50%;

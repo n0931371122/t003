@@ -3,7 +3,7 @@
 @mixin fz($size) {
   font-size: $size;
 }
-//160 92 90 80 60 52 50 48 46 42 40 32 28 22 20 16 15
+//160 92 90 80 70 60 52 50 48 46 42 40 32 28 22 20 16 15 12
 .fz-160 {
   @include fz(160px);
 }
@@ -15,6 +15,9 @@
 }
 .fz-80 {
   @include fz(80px);
+}
+.fz-70 {
+  @include fz(70px);
 }
 .fz-60 {
   @include fz(60px);
@@ -134,7 +137,7 @@
 
 @media (max-width:767px) {
   .fz-160 {
-    @include fz(70px);
+    @include fz(50px);
   }
   .fz-92 {
     @include fz(34px);
@@ -152,7 +155,7 @@
     @include fz(32px);
   }
   .fz-52 {
-    @include fz(30px);
+    @include fz(34px);
   }
   .fz-50 {
     @include fz(30px);

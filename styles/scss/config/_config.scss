@@ -97,39 +97,22 @@
 .max1700 {
   @include max-width(1700px)
 }
-// .max1640{@include max-width(1640px)}
-
-// .w300{@include width(300px, "", 100%)}
-// .w230{@include width(230px,"","")}
-// .w150{@include width(150px, "", "")}
-// .w90{@include width(90px,70px,60px)}
-// .w60{@include width(60px,"","")}
-// .w40{@include width(40px, "", "")}
-// .w20{@include width(20px, "", "")}
-
-// .h90{@include height(90px,70px,60px)} 
-// .h60{@include height(60px,"",50px)}
-// .h50{@include height(50px, "", 45px)}
-// .h40{@include height(40px, "", "")} 
-// .h20{@include height(20px, "", "")} 
+.max970 {
+  @include max-width(970px)
+}
 
 .z-1{@include z-index(1)}
 .z-2{@include z-index(2)}
 .z-3{@include z-index(3)}
 
 .text-hover-red{@include textHoverColor(red)}
-// .text-hover-lightBlue{@include textHoverColor($lightBlue)}
-// .text-hover-primary{@include textHoverColor($primary)}
-// .text-hover-primaryHover{@include textHoverColor($primaryHover)}
+.text-hover-white {
+  @include textHoverColor(white)
+}
 
-// .bg-hover-lightBlue{@include bgHoverColor($lightBlue)}
-// .bg-hover-primary{@include bgHoverColor($primary)}
-// .bg-hover-primaryHover{@include bgHoverColor($primaryHover)}
-// .bg-hover-grayF5{@include bgHoverColor($grayF5)}
-
-
-// .border-hover-primaryHover {@include borderHoverColor($primaryHover)}
-
+.bg-hover-black {
+  @include bgHoverColor($black)  
+}
 
 
 .NotoSansTC {
@@ -144,12 +127,12 @@
 .Jost {
   @include font-family("Jost")
 }
+.Jost-NotoSansTC {
+  font-family:"Jost","Noto Sans TC";
+}
 .PinyonScript{
   @include font-family("Pinyon Script")
 }
-// .rounded-35{@include border-radius(35px)}
-// .rounded-10{@include border-radius(10px)}
-// .rounded-5{@include border-radius(5px)}
 
 .les1{@include letter-spacing(1px)} 
 .les2{@include letter-spacing(2px)}
@@ -183,6 +166,9 @@
 }
 .lh-125{
   line-height: 1.25;
+}
+.lh-115{
+  line-height: 1.15; 
 }
 .flex-center{
   display: flex;
@@ -227,11 +213,7 @@
 }
 
 
-// .background-cover{
-//   background-position: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
+
 .cursor{
   cursor: pointer;
 }
@@ -244,6 +226,11 @@
 .position-md-absolute{
   @media(min-width:768px){
     position: absolute;
+  }
+}
+.position-xl-sticky {
+  @media(min-width:1200px) {
+    position: sticky;
   }
 }
 .position-lg-absolute {
@@ -305,3 +292,32 @@
     padding-right: 3rem !important;
   }
 }
+.ms-xxxl-4 {
+  @media(min-width:1600px) {
+    margin-left: 1.5rem !important;
+  }
+}
+.w-0{
+  width: 0;
+}
+.tlt_2.aos-animate{
+  &.left{
+    span{
+      animation-name: fadeInleft;
+    }
+  }
+  span{
+      animation-name: fadeInUp2;
+      animation-duration: 1s;
+      animation-timing-function: 1;
+      animation-fill-mode: forwards;
+  }
+}
+.tlt_2{
+  span:nth-child(n){
+    display: inline-block;
+    opacity: 0;
+  }
+}
+
+

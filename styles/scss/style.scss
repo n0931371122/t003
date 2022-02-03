@@ -5,9 +5,7 @@
 @import 'scss/plugins/sweetalert2.min.css';
 @import url('scss/plugins/mCustomScrollbar.css');
 @import url('scss/plugins/bootstrap-select.min.css'); 
-// @import url('scss/plugins/jquery.fancybox.min.css');
-// @import url('scss/plugins/slick.css');
-// @import url('scss/plugins/slick-theme.css');
+@import url('scss/plugins/animate.min.css');
 // config
 @import 'config/_config.scss';
 @import 'config/_fontSize.scss';
@@ -32,7 +30,7 @@
 
 @import 'layouts/pages/_cases.scss';
 @import 'layouts/pages/_projects.scss';
-
+@import 'layouts/pages/_project.scss';
 
 @import 'layouts/pages/_designer.scss';
 @import 'layouts/pages/_designer-projects.scss';

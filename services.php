@@ -7,20 +7,17 @@
 </head>
 
 <body>
-
     <?php include "header.php"; ?>
     <!-- main ======================================================================================= -->
     <main>
-        <div id="services">
-
-            <h1 class="d-none">服務項目</h1>
+        <div id="services" class="overflow-hidden">
             <div class="banner-section">
                 <div class="jqimgFill position-fixed h-100 w-100">
                     <img src="styles/images/services/banner.jpg" alt="">
                 </div>
-                <div class="fw-600 text-white absolute-center text-center">
-                    <span class="d-block fz-160 text-uppercase lh-09">service</span>
-                    <span class="d-block NotoSerifTC fz-24">服務項目</span>
+                <div class="fw-600 text-white absolute-center text-center w-100 px-4 pb-5">
+                    <span class="tlt d-block fz-160 les5 lh-09">SERVICE</span>
+                    <span class="d-block NotoSerifTC fz-24 les2" data-aos="fade-up" data-aos-delay="100">服務項目</span>
                 </div>
                 <button class="mouse position-absolute" type="button">
                     <img src="styles/images/common/mouse.svg" alt="">
@@ -29,13 +26,13 @@
             <div class="position-relative bg-white">
                 <div class="section position-relative z-1 py-lg-5">
                     <div class="pt-5">
-                        <div class="row row-cols-lg-2 g-0 pb-5 mb-xl-5">
+                        <div class="block-1 row row-cols-lg-2 g-0 pb-5 mb-xl-5">
                             <div class="order-lg-2 ps-4 ps-xxl-5 pe-4 pb-4 pb-lg-0">
                                 <div class="text-inner lh-165 pt-md-3 ms-xxl-3">
-                                    <span class="d-block PinyonScript fz-80 text-black les1">01</span>
+                                    <span class="d-block PinyonScript fz-80 text-black les1" data-aos="fade-up">01</span>
                                     <div class="ps-lg-3">
-                                        <h2 class="fz-40 fw-600 text-black les1 mb-3">土地評估</h2>
-                                        <div>
+                                        <h2 class="tlt_2 left large fz-40 fw-600 text-black les3 mb-3" data-aos="fade-left">土地評估</h2>
+                                        <div class="NotoSansTC" data-aos="fade-left">
                                             <p class="text-black">依據開發目的擬具興辦事業計畫、開發計畫並辦理分區、用地變更，使開發行為及後續土地使用適法。</p>
                                             <ul class="ns ul-dec">
                                                 <li>非都市土地申請開發許可</li>
@@ -49,16 +46,16 @@
                                 </div>
                             </div>
                             <div>
-                                <img class="object-fit" src="styles/images/services/1.jpg" alt="">
+                                <img class="object-fit" src="styles/images/services/1.jpg" alt="" data-aos="fade-right">
                             </div>
                         </div>
-                        <div class="row row-cols-lg-2 g-0 pb-5 mb-xl-5">
+                        <div class="block-2 row row-cols-lg-2 g-0 pb-5 mb-xl-5">
                             <div class="px-4 pe-xxl-5 pb-4 pb-lg-0">
                                 <div class="text-inner lh-165 pt-md-3 ms-auto">
-                                    <span class="d-block PinyonScript fz-80 text-black les1">02</span>
+                                    <span class="d-block PinyonScript fz-80 text-black les1" data-aos="fade-up">02</span>
                                     <div class="ps-lg-3">
-                                        <h2 class="fz-40 fw-600 text-black les1 mb-3">產品規劃</h2>
-                                        <div>
+                                        <h2 class="tlt_2 left fz-40 fw-600 text-black les3 mb-3" data-aos="fade-left">產品規劃</h2>
+                                        <div class="NotoSansTC" data-aos="fade-left">
                                             <p class="text-black">建立產品定位與行銷企劃、廣告執行與預算控制、銷售規劃與現場管理銷控等重要銷售實務內容。</p>
                                             <ul class="ns ul-dec">
                                                 <li>房地產價格趨勢及變動因素探討</li>
@@ -72,16 +69,16 @@
                                 </div>
                             </div>
                             <div>
-                                <img class="object-fit" src="styles/images/services/2.jpg" alt="">
+                                <img class="object-fit" src="styles/images/services/2.jpg" alt="" data-aos="fade-left">
                             </div>
                         </div>
-                        <div class="row row-cols-lg-2 g-0 pb-5 mb-xl-5">
+                        <div class="block-3 row row-cols-lg-2 g-0 pb-5 mb-xl-5">
                             <div class="order-lg-2 ps-4 ps-xxl-5 pe-4 pb-4 pb-lg-0">
                                 <div class="text-inner lh-165 pt-md-3 ms-xxl-3">
-                                    <span class="d-block PinyonScript fz-80 text-black les1">03</span>
+                                    <span class="d-block PinyonScript fz-80 text-black les1" data-aos="fade-up">03</span>
                                     <div class="ps-lg-3">
-                                        <h2 class="fz-40 fw-600 text-black les1 mb-3">產品銷售</h2>
-                                        <div>
+                                        <h2 class="tlt_2 left fz-40 fw-600 text-black les3 mb-3" data-aos="fade-left">產品銷售</h2>
+                                        <div class="NotoSansTC" data-aos="fade-left">
                                             <p class="text-black">整合建築、設計、精品、行旅、藝術……等跨界文化為養分，向上創造有價值的體驗行銷。</p>
                                             <ul class="ns ul-dec">
                                                 <li>全方位資產顧問</li>
@@ -94,16 +91,16 @@
                                 </div>
                             </div>
                             <div>
-                                <img class="object-fit" src="styles/images/services/3.jpg" alt="">
+                                <img class="object-fit" src="styles/images/services/3.jpg" alt="" data-aos="fade-right">
                             </div>
                         </div>
-                        <div class="row row-cols-lg-2 g-0 pb-5 mb-xl-5">
+                        <div class="block-4 row row-cols-lg-2 g-0 pb-5 mb-xl-5">
                             <div class="px-4 pe-xxl-5 pb-4 pb-lg-0">
                                 <div class="text-inner lh-165 pt-md-3 ms-auto">
-                                    <span class="d-block PinyonScript fz-80 text-black les1">04</span>
+                                    <span class="d-block PinyonScript fz-80 text-black les1" data-aos="fade-up">04</span>
                                     <div class="ps-lg-3 mb-3 mb-md-2">
-                                        <h2 class="fz-40 fw-600 text-black les1 mb-3">空間設計</h2>
-                                        <div class="pb-4 mb-md-3">
+                                        <h2 class="tlt_2 left fz-40 fw-600 text-black les3 mb-3" data-aos="fade-left">空間設計</h2>
+                                        <div class="NotoSansTC pb-4 mb-md-3" data-aos="fade-left">
                                             <p class="text-black">推演未來生活細節、生活細節提出更精準的設計提案，包含平面圖、3D示意圖，以及材質和設備等建議。</p>
                                             <ul class="ns ul-dec">
                                                 <li>房地產價格趨勢及變動因素探討</li>
@@ -113,7 +110,7 @@
                                                 <li>底價表價製定與銷售控制步驟</li>
                                             </ul>
                                         </div>
-                                        <a class="match-link position-relative d-table text-black text-hover-red" href="">
+                                        <a class="match-link position-relative d-table text-black text-hover-red" href="/designer">
                                             <span class="fw-500 d-block pe-5 pb-1">配合設計師</span>
                                             <img src="styles/images/services/match-arrow.png" alt="">
                                         </a>
@@ -121,16 +118,16 @@
                                 </div>
                             </div>
                             <div>
-                                <img class="object-fit" src="styles/images/services/4.jpg" alt="">
+                                <img class="object-fit" src="styles/images/services/4.jpg" alt="" data-aos="fade-left">
                             </div>
                         </div>
-                        <div class="row row-cols-lg-2 g-0 pb-lg-5 mb-xl-5">
+                        <div class="block-5 row row-cols-lg-2 g-0 pb-lg-5 mb-xl-5">
                             <div class="order-lg-2 ps-4 ps-xxl-5 pe-4 pb-4 pb-lg-0">
                                 <div class="text-inner lh-165 pt-md-3 ms-xxl-3">
-                                    <span class="d-block PinyonScript fz-80 text-black les1">05</span>
+                                    <span class="d-block PinyonScript fz-80 text-black les1" data-aos="fade-up">05</span>
                                     <div class="ps-lg-3">
-                                        <h2 class="fz-40 fw-600 text-black les1 mb-3">物業管理</h2>
-                                        <div>
+                                        <h2 class="tlt_2 left fz-40 fw-600 text-black les3 mb-3" data-aos="fade-left">物業管理</h2>
+                                        <div class="NotoSansTC" data-aos="fade-left">
                                             <p class="text-black">提供全方位物業管理服務，從大的物業管理到細微的生活服務， 讓您信賴安心的將家園交由我們守護。</p>
                                             <ul class="ns ul-dec">
                                                 <li>完整三階段各項物業服務</li>
@@ -143,18 +140,15 @@
                                 </div>
                             </div>
                             <div>
-                                <img class="object-fit" src="styles/images/services/5.jpg" alt="">
+                                <img class="object-fit" src="styles/images/services/5.jpg" alt="" data-aos="fade-right">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </main>
     <!-- main ======================================================================================= -->
-
     <?php include "footer.php"; ?>
     <?php include "footer-js.php"; ?>
 </body>

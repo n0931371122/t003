@@ -15,8 +15,9 @@
         }
         function init() {
             setTimeout(function(){
-                $(".cover .logo").addClass("located");
-            },2800);
+                $(".logo-wrapper").addClass("move");
+                $("#holder").addClass("in");
+            },2000);
             var tl = new TimelineMax({
                 repeat: 0,
             });
@@ -28,7 +29,7 @@
 
 
             for(let i=0;i<7;i++){
-                tl.fromTo(".text-"+(i+1),startObj,finalObj,(0.2*i+0.6))
+                tl.fromTo(".text-"+(i+1),startObj,finalObj,(0.2*i+2.2))
             }
                 tl.fromTo(".subTitle",{
                 yPercent: 20,
@@ -36,7 +37,7 @@
                 },{
                 yPercent: 0,
                 autoAlpha:1,
-                },1.8)
+                },3)
 
                 tl.fromTo(".enter",{
                 yPercent: 20,
@@ -44,7 +45,7 @@
                 },{
                 yPercent: 0,
                 autoAlpha:1,
-                },2.2)
+                },3.2)
 
 
         }
@@ -66,7 +67,7 @@ var pi = Math.PI;
 
     Waves.options = extend(options || {}, {
       resize: false,
-      rotation: -65,
+      rotation: 0,
       waves: 3,
       width: 0,
       hue: [90, 255],

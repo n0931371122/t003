@@ -13,23 +13,23 @@
             <div class="px-4 pt-4 pt-md-5">
                 <div class="max1700 mx-auto ptmd--3 pb-4">
                     <div class="d-md-flex justify-content-between position-relative mb-4">
-                        <a class="back flex-center position-absolute" href="">
+                        <a class="back flex-center position-absolute" href="/news">
                             <i class="icon-close text-white fz-22"></i>
                         </a>
                         <div class="text-black les1 py-2 py-md-0 pe-5 pe-md-0">
                             <span class="fw-600 fz-20 fw-bold text-uppercase right-dec-line pe-3 me-2">hot News</span>
                             <span>新聞訊息</span>
                         </div>
-                        <div class="society d-flex">
+                        <div class="society d-flex align-items-center">
                             <span class="fz-500 text-black me-3">分享至</span>
                             <div class="d-flex text-gray9A">
-                                <a class="flex-center text-hover-red mx-2 px-1" href="">
+                                <a class="flex-center text-hover-red mx-2 px-1" href="#" target="_blank">
                                     <i class="icon-fb"></i>
                                 </a>
-                                <a class="flex-center text-hover-red mx-2 px-1" href="">
+                                <a class="flex-center text-hover-red mx-2 px-1" href="#" target="_blank">
                                     <i class="icon-twitter"></i>
                                 </a>
-                                <a class="flex-center text-hover-red mx-2 px-1" href="">
+                                <a class="flex-center text-hover-red mx-2 px-1" href="#" target="_blank">
                                     <i class="icon-line"></i>
                                 </a>
                             </div>
@@ -38,9 +38,9 @@
                     <div class="bg-grayF7 pt-5 mb-4">
                         <div class="px-4">
                             <div class="max1010 mx-auto pt-md-5 mt-lg-4">
-                                <h1 class="fz-40 fw-600 text-black text-center">十大推案熱區出爐 建商步步為營相準這幾區</h1>
-                                <span class="d-block fz-22 fw-500 text-black text-center">Dec 02, 2021</span>
-                                <div class="editor NotoSansTC py-4 py-lg-5">
+                                <h1 class="fz-40 fw-600 text-black text-center" data-aos="fade-up">十大推案熱區出爐 建商步步為營相準這幾區</h1>
+                                <span class="d-block fz-22 fw-500 text-black text-center" data-aos="fade-up" data-aos-delay="50">Dec 02, 2021</span>
+                                <div class="editor NotoSansTC py-4 py-lg-5" data-aos="fade-up">
                                     <p>市調統計，北台灣今年推案集中在新北市與桃園市，推案量前十名行政區，新北市有五區入榜，桃園三區，龜山區推案量最大，今年前九個月推案量逾490億元，較去年同期大增近180億，年增57％。</p>
                                     <p>住展雜誌企研室經理何世昌表示，今年推案大量區，多是建商看到買氣回升，才擴大推案動能，建商推案步步為營，不再像過去多頭時期矇著眼睛推案，一味搶時機。</p>
                                     <img src="styles/images/new/1.jpg" alt="">
@@ -55,25 +55,24 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row row-cols-2 g-0 NotoSerifTC fz-18 text-black text-center">
-                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 prev" href="">
+                        <div class="row row-cols-2 g-0 fz-18 text-black text-center" data-aos="fade-up">
+                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 prev" href="/new">
                                 <span class="d-block fw-500 mt-md-3 mb-md-2 py-md-1">PREV</span>
                                 <span class="title d-none d-md-block line1 mb-3">【房市暴衝】無懼總統大選　928檔期推案上看5000億</span>
                             </a>
-                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 next" href="">
+                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 next" href="/new">
                                 <span class="d-block fw-500 mt-md-3 mb-md-2 py-md-1">NEXT</span>
                                 <span class="title d-none d-md-block line1 mb-3">全台最大公辦都更招商案評選 特貿三吸引民間投資750億</span>
                             </a>
                         </div>
                     </div>
-                    <div class="pt-md-3">
+                    <div class="pt-md-3" data-aos="fade-up">
                         <button onclick='$("html, body").scrollTop(0)' class="d-table text-hover-red mx-auto py-3 py-md-4" type="button">
                             <i class="icon-gotop fz-20"></i>
                         </button>
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
     <!-- main ======================================================================================= -->

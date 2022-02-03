@@ -9,3 +9,7 @@
 .icon-next:before { content: '\e809'; } /* '' */
 .icon-prev:before { content: '\e80b'; } /* '' */
 .icon-address:before { content: '\e80c'; } /* '' */
+.icon-line:before { content: '\e80d'; } /* '' */
+.icon-link:before { content: '\e80e'; } /* '' */
+.icon-mail-2:before { content: '\e80f'; } /* '' */
+.icon-tri:before { content: '\e811'; } /* '' */
