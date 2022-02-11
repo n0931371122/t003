@@ -13,7 +13,7 @@
             <div class="px-4 pt-4 pt-md-5">
                 <div class="max1700 mx-auto ptmd--3 pb-4">
                     <div class="d-md-flex justify-content-between position-relative mb-4">
-                        <a class="back flex-center position-absolute" href="/news">
+                        <a class="back flex-center position-absolute" href="./news">
                             <i class="icon-close text-white fz-22"></i>
                         </a>
                         <div class="text-black les1 py-2 py-md-0 pe-5 pe-md-0">
@@ -56,11 +56,11 @@
                             </div>
                         </div>
                         <div class="row row-cols-2 g-0 fz-18 text-black text-center" data-aos="fade-up">
-                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 prev" href="/new">
+                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 prev" href="./new">
                                 <span class="d-block fw-500 mt-md-3 mb-md-2 py-md-1">PREV</span>
                                 <span class="title d-none d-md-block line1 mb-3">【房市暴衝】無懼總統大選　928檔期推案上看5000億</span>
                             </a>
-                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 next" href="/new">
+                            <a class="d-block px-4 py-3 py-md-4 py-lg-5 next" href="./new">
                                 <span class="d-block fw-500 mt-md-3 mb-md-2 py-md-1">NEXT</span>
                                 <span class="title d-none d-md-block line1 mb-3">全台最大公辦都更招商案評選 特貿三吸引民間投資750億</span>
                             </a>

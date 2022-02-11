@@ -38,14 +38,11 @@
             padding: 17.5px 78px;
             border:1px solid black;
             margin-right: 30px;
-
-            &::after {
-                content: url(images/contact/arrow.png);
-                display: block;
-                position: absolute;
+            .icon-arrow {
                 top: 50%;
                 right: 0;
                 transform: translate(60%, -50%);
+                font-size: 65px;
             }
         }
         .swiper-container{
@@ -148,9 +145,6 @@
             .back{
                 padding: 10px 30px;
                 margin-right: 0;
-                &::after {
-                    display: none;
-                }
             }
         }
     }

@@ -15,15 +15,15 @@
                 <h1 class="fz-92 fw-500 text-black text-center lh-1 les2 mb-2 pt-1" data-aos="fade-up">OUR DESIGNER</h1>
                 <span class="sub d-table position-relative fz-24 fw-500 text-black les2 mx-auto pb-3" data-aos="fade-up" data-aos-delay="50">配合設計師</span>
                 <div class="d-flex justify-content-center NotoSansTC les1 mt-3 pt-1" data-aos="fade-up" data-aos-delay="100">
-                    <a class="mx-3 text-red" href="/designer">所有類別 </a>
-                    <a class="mx-3 text-hover-red text-black" href="/designer">廠辦 </a>
-                    <a class="mx-3 text-hover-red text-black" href="/designer"> 住宅</a>
+                    <a class="mx-3 text-red" href="./designer">所有類別 </a>
+                    <a class="mx-3 text-hover-red text-black" href="./designer">廠辦 </a>
+                    <a class="mx-3 text-hover-red text-black" href="./designer"> 住宅</a>
                 </div>
                 <div class="items row row-cols-md-2 text-black py-xl-5 mt-5">
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">李荷琳</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/1.jpg" alt="">
@@ -51,7 +51,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">劉名耀</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/2.jpg" alt="">
@@ -79,7 +79,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">翁志傑</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/3.jpg" alt="">
@@ -107,7 +107,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">湯鎮安</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/4.jpg" alt="">
@@ -135,7 +135,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">李荷琳</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/5.jpg" alt="">
@@ -163,7 +163,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">林函青</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/6.jpg" alt="">
@@ -192,7 +192,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">劉嘉雯</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/7.jpg" alt="">
@@ -220,7 +220,7 @@
                     <div class="mb-5 pb-lg-4" data-aos="fade-up">
                         <h2 class="d-none">蕭如芳</h2>
                         <div class="d-table mx-auto">
-                            <a class="item d-block position-relative" href="/designer-projects">
+                            <a class="item d-block position-relative" href="./designer-projects">
                                 <span class="img-inner d-block overflow-hidden mb-3">
                                     <span class="img d-block h-100">
                                         <img class="object-fit h-100" src="styles/images/designer/8.jpg" alt="">

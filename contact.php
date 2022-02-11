@@ -14,7 +14,7 @@
         <div id="contact" class="overflow-hidden">
             <h1 class="d-none">聯絡我們</h1>
             <div class="banner-section">
-                <div class="jqimgFill position-fixed h-100 w-100">
+                <div class="jqimgFill position-fixed">
                     <img src="styles/images/contact/banner.jpg" alt="">
                 </div>
                 <div class="fw-600 text-white absolute-center text-center w-100 px-4 pb-5">
@@ -77,7 +77,7 @@
                             <span class="tlt_2 d-inline-block" data-aos="fade-up">QUESTION?</span>
                         </h2>
                         <p class="text-center" data-aos="fade-up">若您對我們公司有興趣或疑問，歡迎隨時來信聯絡，我們會盡快回覆您。 </p>
-                        <form id="contactForm" class="form pt-md-5 mt-4" action="contact">
+                        <form id="contactForm" class="form pt-md-5 mt-4" action="./contact">
                             <div class="row">
                                 <div class="col-md-6 mb-3" data-aos="fade-up">
                                     <div class="form-field position-relative d-flex align-items-center">
@@ -148,7 +148,10 @@
                                 </div>
                             </div>
                             <div class="d-table mx-auto mt-3 mt-md-5" data-aos="fade-up">
-                                <button class="submit text-black position-relative text-hover-white bg-hover-black" type="submit">送出表單</button>
+                                <button class="submit text-black position-relative text-hover-white bg-hover-black" type="submit">
+                                    <span>送出表單</span>
+                                    <i class="icon-arrow d-none d-md-block text-black position-absolute"></i>
+                                </button>
                             </div>
                         </form>
                     </div>

@@ -12,7 +12,7 @@
     <main>
         <div id="services" class="overflow-hidden">
             <div class="banner-section">
-                <div class="jqimgFill position-fixed h-100 w-100">
+                <div class="jqimgFill position-fixed">
                     <img src="styles/images/services/banner.jpg" alt="">
                 </div>
                 <div class="fw-600 text-white absolute-center text-center w-100 px-4 pb-5">
@@ -110,7 +110,7 @@
                                                 <li>底價表價製定與銷售控制步驟</li>
                                             </ul>
                                         </div>
-                                        <a class="match-link position-relative d-table text-black text-hover-red" href="/designer">
+                                        <a class="match-link position-relative d-table text-black overflow-hidden" href="./designer">
                                             <span class="fw-500 d-block pe-5 pb-1">配合設計師</span>
                                             <img src="styles/images/services/match-arrow.png" alt="">
                                         </a>

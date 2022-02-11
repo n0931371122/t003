@@ -19,6 +19,11 @@
             max-width: 466px;
         } 
         .match-link{
+            &:hover{
+                img{
+                    animation: arrowmove .6s linear 0s 1 forwards;
+                }
+            }
             img{
                 position: absolute;
                 left: 0;

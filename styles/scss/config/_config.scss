@@ -105,7 +105,7 @@
 .z-2{@include z-index(2)}
 .z-3{@include z-index(3)}
 
-.text-hover-red{@include textHoverColor(red)}
+.text-hover-red{@include textHoverColor($red)}
 .text-hover-white {
   @include textHoverColor(white)
 }
@@ -151,6 +151,9 @@
 }
 .lh-14 {
   line-height: 1.4;
+}
+.lh-15 {
+  line-height: 1.5;
 }
 .lh-16{
   line-height: 1.6;

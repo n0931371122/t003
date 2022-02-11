@@ -15,16 +15,16 @@
                 <h1 class="fz-92 fw-500 text-black text-center lh-1 les2 mb-2 pt-1" data-aos="fade-up">RESIDENTIAL</h1>
                 <span class="sub d-table position-relative fz-24 fw-500 text-black les2 mx-auto pb-3" data-aos="fade-up" data-aos-delay="50">住宅</span>
                 <div class="d-flex justify-content-center NotoSansTC les1 mt-3 pt-1" data-aos="fade-up" data-aos-delay="100">
-                    <a class="mx-3 text-red" href="/projects-2">所有區域 </a>
-                    <a class="mx-3 text-hover-red text-black" href="/projects-2">北部</a>
-                    <a class="mx-3 text-hover-red text-black" href="/projects-2">中部</a>
-                    <a class="mx-3 text-hover-red text-black" href="/projects-2">南部</a>
+                    <a class="mx-3 text-red" href="./projects-2">所有區域 </a>
+                    <a class="mx-3 text-hover-red text-black" href="./projects-2">北部</a>
+                    <a class="mx-3 text-hover-red text-black" href="./projects-2">中部</a>
+                    <a class="mx-3 text-hover-red text-black" href="./projects-2">南部</a>
                 </div>
                 <div class="row row-cols-md-2 row-cols-lg-3 pt-4 pt-md-5 pb-xl-4">
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="0">
                         <h2 class="d-none">海上皇宮</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">27</span>
@@ -55,7 +55,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="50">
                         <h2 class="d-none">美麗山林</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">27</span>
@@ -86,7 +86,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="d-none">甲山林帝景</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">45</span>
@@ -117,7 +117,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="0">
                         <h2 class="d-none">達麗創世紀</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">23</span>
@@ -148,7 +148,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="50">
                         <h2 class="d-none">美術白天鵝</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">40</span>
@@ -179,7 +179,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="d-none">圓富登峰</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">45</span>
@@ -210,7 +210,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="0">
                         <h2 class="d-none">海上皇宮</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">27</span>
@@ -241,7 +241,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="50">
                         <h2 class="d-none">美麗山林</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">27</span>
@@ -272,7 +272,7 @@
                     <div class="mb-5 pb-xl-4" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="d-none">甲山林帝景</h2>
                         <div class="d-table d-md-block mx-auto">
-                            <a class="projectItem position-relative d-flex" href="/project">
+                            <a class="projectItem position-relative d-flex" href="./project">
                                 <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                     <span class="d-table">
                                         <span class="d-block">45</span>

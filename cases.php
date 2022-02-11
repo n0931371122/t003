@@ -13,7 +13,7 @@
         <div id="cases" class="overflow-hidden">
             <h1 class="d-none">服務案例</h1>
             <div class="banner-section">
-                <div class="jqimgFill position-fixed h-100 w-100">
+                <div class="jqimgFill position-fixed">
                     <img src="styles/images/cases/banner.jpg" alt="">
                 </div>
                 <div class="fw-600 text-white absolute-center text-center w-100 px-4 pb-5">
@@ -30,7 +30,7 @@
                     <div class="max1295 mx-auto pt-4 pt-md-5 py-lg-5 mt-xl-4 mb-lg-5">
                         <div class="item">
                             <h2 class="d-none">Workplace</h2>
-                            <a class="d-block d-lg-flex row g-0" href="/projects-1">
+                            <a class="d-block d-lg-flex row g-0" href="./projects-1">
                                 <span class="text-block col-lg-6 d-flex order-lg-2 align-items-center position-relative pb-4 pb-lg-0 mt-lg-5 ps-4 ps-lg-0 ps-xl-5 pe-4">
                                     <span class="text-inner d-sm-flex z-2 position-relative pt-4 ps-xxl-4">
                                         <span class="number d-block PinyonScript fz-46 text-black pe-4" data-aos="fade-up">01</span>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="item">
                             <h2 class="d-none">Residential</h2>
-                            <a class="d-block d-lg-flex row g-0" href="/projects-2">
+                            <a class="d-block d-lg-flex row g-0" href="./projects-2">
                                 <span class="text-block col-lg-6 d-flex align-items-center position-relative pb-4 pb-lg-0 mt-lg-5 pe-xxl-5 ps-4 pt-4 pt-lg-0">
                                     <span class="text-inner d-sm-flex z-2 position-relative pt-4 pe-4 ms-auto">
                                         <span class="number d-block PinyonScript fz-46 text-black pe-4" data-aos="fade-up">02</span>

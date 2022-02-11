@@ -52,3 +52,19 @@
 		transform: none
 	}
 }
+@keyframes arrowmove {
+	0% {
+		transform:none;
+	}
+	50% {
+		transform: translateX(120%);
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-120%);
+		opacity: 0;
+	}
+	100% {
+		transform:none;
+	}
+}

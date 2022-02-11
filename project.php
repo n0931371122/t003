@@ -13,7 +13,7 @@
         <div id="project">
             <h1 class="d-none">美麗山林</h1>
             <div class="banner-section">
-                <div class="jqimgFill position-fixed h-100 w-100">
+                <div class="jqimgFill position-fixed">
                     <img src="styles/images/project/banner.jpg" alt="">
                 </div>
                 <div class="text-white absolute-center text-center les2 pt-5 mt-4">
@@ -59,11 +59,11 @@
                                 <div class="text-black d-flex" data-aos="fade-up">
                                     <a class="link NotoSansTC fw-bold les1 me-5" href="#" target="_blank">
                                         <span>官網連結</span>
-                                        <i class="icon-link"></i>
+                                        <i class="icon-link ms-1"></i>
                                     </a>
-                                    <a class="link d-flex align-items-center NotoSansTC fw-bold les1" href="/contact">
+                                    <a class="link d-flex align-items-center NotoSansTC fw-bold les1" href="./contact">
                                         <span>預約賞屋</span>
-                                        <i class="icon-mail-2 fz-12 ms-1"></i>
+                                        <i class="icon-mail-2 fz-12 ms-2"></i>
                                     </a>
                                 </div>
                                 <div class="d-flex align-items-center mt-3 mt-md-0" data-aos="fade-up">
@@ -102,14 +102,17 @@
                         <div class="swiper-pagination Jost fz-15 text-black"></div>
                     </div>
                     <div class="d-table mx-auto mt-xl-5 pt-md-4" data-aos="fade-up">
-                        <a class="back d-block text-black position-relative text-hover-white bg-hover-black" href="/projects-1">返回列表</a>
+                        <a class="back d-block text-black position-relative text-hover-white bg-hover-black" href="./projects-1">
+                            <span>返回列表</span>
+                            <i class="icon-arrow d-none d-md-block text-black position-absolute"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     <!-- main ======================================================================================= -->
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal fade" id="videoModal">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <button type="button" class="close d-flex align-items-center mx-auto text-white mb-3" data-bs-dismiss="modal">
@@ -130,6 +133,7 @@
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         var player;
+
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
                 videoId: 'WhL9IHMcDRw',

@@ -10,10 +10,12 @@ $(function (){
 		[layout]
     ==========================================================================*/
         $("header .menu-section .menu a").on("mouseenter",function(){
+            $(this).addClass("active").parents(".menu").addClass("menuHoverMode");
             $("header .menu-section .number-block").addClass("active").find("div").css("transform","translateY("+$(this).position().top+"px)")
             $("header .menu-section .number-block .now").text($(this).parent().index() + 1);
         });
         $("header .menu-section .menu a").on("mouseleave",function(){
+            $(this).removeClass("active").parents(".menu").removeClass("menuHoverMode");
             $("header .menu-section .number-block").removeClass("active").find("div").css("transform","translateY(0px)")
             $("header .menu-section .number-block .now").text(1);
         });
@@ -22,7 +24,19 @@ $(function (){
         });
         $(window).scroll(function(){
             $(window).scrollTop()==0?$("html").removeClass("scrollMode"):$("html").addClass("scrollMode");
-        });   
+        }); 
+        $("footer .menu a").on("mouseenter",function(){  
+            $(this).addClass("active").parents(".menu").addClass("menuHoverMode");
+         });
+        $("footer .menu a").on("mouseleave",function(){  
+            $(this).removeClass("active").parents(".menu").removeClass("menuHoverMode");
+         });
+        $("footer .society a").on("mouseenter",function(){  
+            $(this).addClass("active").parents(".society").addClass("menuHoverMode");
+         });
+        $("footer .society a").on("mouseleave",function(){  
+            $(this).removeClass("active").parents(".society").removeClass("menuHoverMode");
+         });
      /* ==========================================================================
 		[page]
     ==========================================================================*/
@@ -184,6 +198,8 @@ $(function (){
         windowH=$(window).height();
         headerH=$("header").height();
         windowW<1400?$("[data-aos-delay]").removeAttr("data-aos-delay"):"";
+        $("header .menu-section").height(windowH);
+        $(".banner-section").height(windowH);
     }
 
 })
@@ -194,5 +210,4 @@ function aosInit(){
         mirror: true,
     });
 }
-
 

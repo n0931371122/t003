@@ -34,9 +34,10 @@
                 }
             }
             .text-block .text-inner{
+                .number,
                 .title,
                 .subtitle{
-                     color:$red;
+                     opacity: 1;
                 }
                
             }
@@ -71,11 +72,14 @@
                 }
                 .number{
                     line-height: 1.4;
+                    opacity: 0.6;
+                    transition: all .3s;
                 }
                 .title,
                 .subtitle{
                     transition: all .3s;
                     color:black;
+                    opacity: 0.6;
                 }
             }
         }

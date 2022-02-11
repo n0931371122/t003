@@ -13,7 +13,7 @@
         <div id="about" class="overflow-hidden">
             <h1 class="d-none">關於潤居</h1>
             <div class="banner-section">
-                <div class="jqimgFill position-fixed h-100 w-100">
+                <div class="jqimgFill position-fixed">
                     <img src="styles/images/about/banner.jpg" alt="">
                 </div>
                 <div class="fw-600 text-white absolute-center text-center w-100 px-4 pb-5">
@@ -55,11 +55,11 @@
                     <img class="concept position-absolute" src="styles/images/about/concept.png" alt="" data-aos="fade-In">
                 </div>
                 <div class="section-2 position-relative z-1 pt-4 pt-md-5 pt-xl-0 px-4 px-lg-0">
-                    <div class="row g-0 mt-2 mt-md-0">
+                    <div class="row g-0 align-items-xl-end mt-2 mt-md-0">
                         <div class="col-lg-6">
                             <img class="object-fit" src="styles/images/about/2.jpg" alt="" data-aos="fade-right">
                         </div>
-                        <div class="text-inner order-lg-2 col-lg-6 ps-lg-4 ps-xxl-5 pt-4 pt-md-5 pt-lg-0">
+                        <div class="text-inner order-lg-2 col-lg-6 ps-lg-4 ps-xxl-5 pt-4 pt-md-5 pt-lg-0 pb-xxl-4">
                             <div class="max550 mx-auto">
                                 <span class="d-block fz-22 fw-500 text-red text-uppercase mb-sm-2" data-aos="fade-up">What we do</span>
                                 <h3 class="NotoSerifTC fz-42 fw-600 text-black lh-135 mb-3 mb-md-4 mb-xl-5 pb-xl-2">

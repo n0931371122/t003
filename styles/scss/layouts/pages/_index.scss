@@ -12,19 +12,18 @@
             pointer-events: none;
         }
     }
-    #holder {
-        position: fixed;
-        top: 0;
-        left:0;
-        bottom: 0;
-        right: 0;
-        // transform: translateX(40%);
-        transform:rotate(-45deg) translate(3%, 59%);
-        opacity: 0;
-        transition: opacity 2s;
-        &.in{
-            opacity: 1; 
-        }
+    .linesHolder {
+    }
+    .animated-lines {
+        height: 180vh;
+        width: 180vw;
+        transform: rotate(95deg);
+    }
+    .animated-lines path {
+        fill: none;
+        stroke: #0d0d17;
+        stroke-width: 1.2px;
+        vector-effect: non-scaling-stroke;
     }
     .main-section{
         opacity: 0;
