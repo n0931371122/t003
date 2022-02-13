@@ -35,8 +35,7 @@
             }
             .text-block .text-inner{
                 .number,
-                .title,
-                .subtitle{
+                .title{
                      opacity: 1;
                 }
                
@@ -75,9 +74,8 @@
                     opacity: 0.6;
                     transition: all .3s;
                 }
-                .title,
-                .subtitle{
-                    transition: all .3s;
+                .title{
+                    transition: all .3s; 
                     color:black;
                     opacity: 0.6;
                 }

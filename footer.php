@@ -13,19 +13,19 @@
              </div>
              <ul class="ns menu row g-0 justify-content-center NotoSerifTC fz-20 fw-600 les1 mb-4 mb-md-5 mx-auto">
                  <li class="col-4 col-md">
-                     <a href="./news" class="d-block">最新消息</a>
+                     <a href="news" class="d-block">最新消息</a>
                  </li>
                  <li class="col-4 col-md">
-                     <a href="./about" class="d-block">關於潤居</a>
+                     <a href="about" class="d-block">關於潤居</a>
                  </li>
                  <li class="col-4 col-md">
-                     <a href="./cases" class="d-block">服務案例</a>
+                     <a href="cases" class="d-block">服務案例</a>
                  </li>
                  <li class="col-4 col-md">
-                     <a href="./services" class="d-block">服務項目</a>
+                     <a href="services" class="d-block">服務項目</a>
                  </li>
                  <li class="col-4 col-md">
-                     <a href="./contact" class="d-block">聯絡我們</a>
+                     <a href="contact" class="d-block">聯絡我們</a>
                  </li>
              </ul>
              <span class="d-block NotoSerifTC fz-22 fw-bold les1 mb-2 pb-1">潤居實業股份有限公司</span>
@@ -37,7 +37,7 @@
                  <a class="d-table mx-auto" href="mailto:runju909@gmail.com" target="_blank">信箱<span class="NotoSansTC">：</span>runju909@gmail.com</a>
              </div>
          </div>
-         <button onclick='$("html, body").scrollTop(0)' class="gotop position-md-absolute d-table flex-center mx-auto" type="button">
+         <button class="gotop position-md-absolute d-table flex-center mx-auto" type="button">
              <i class="icon-gotop"></i>
          </button>
          <div class="copyright-section py-4">
@@ -54,7 +54,7 @@
              </div>
              <p class="mb-4">
                  <span class="d-block d-md-inline text-uppercase fz-15 me-md-2 mb-2 mb-md-0">Copyright © Zoku Sumi Co., Ltd. </span>
-                 <a href="./privacy">隱私權政策</a><a href="/sitemap">網站地圖</a>
+                 <a href="privacy">隱私權政策</a><a href="/sitemap">網站地圖</a>
              </p>
          </div>
      </div>

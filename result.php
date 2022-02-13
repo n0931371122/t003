@@ -21,7 +21,7 @@
                     <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 gx-5 text-center pb-3">
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="0">
                             <h2 class="d-none">海上皇宮</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/1.jpg" alt="">
                                 </span>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="50">
                             <h2 class="d-none">美麗山林</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/2.jpg" alt="">
                                 </span>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <h2 class="d-none">甲山林帝景</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/3.jpg" alt="">
                                 </span>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="150">
                             <h2 class="d-none">達麗創世紀</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/4.jpg" alt="">
                                 </span>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="0">
                             <h2 class="d-none">海上皇宮</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/1.jpg" alt="">
                                 </span>
@@ -81,7 +81,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="50">
                             <h2 class="d-none">美麗山林</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/2.jpg" alt="">
                                 </span>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <h2 class="d-none">甲山林帝景</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/3.jpg" alt="">
                                 </span>
@@ -105,7 +105,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="150">
                             <h2 class="d-none">達麗創世紀</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/4.jpg" alt="">
                                 </span>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="0">
                             <h2 class="d-none">海上皇宮</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/1.jpg" alt="">
                                 </span>
@@ -129,7 +129,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="50">
                             <h2 class="d-none">美麗山林</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/2.jpg" alt="">
                                 </span>
@@ -141,7 +141,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <h2 class="d-none">甲山林帝景</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/3.jpg" alt="">
                                 </span>
@@ -153,7 +153,7 @@
                         </div>
                         <div class="mb-4 mb-md-5 pb-lg-3" data-aos="fade-up" data-aos-delay="150">
                             <h2 class="d-none">達麗創世紀</h2>
-                            <a class="item d-block" href="./project">
+                            <a class="item d-block" href="project.php">
                                 <span class="img-inner d-block overflow-hidden" data-aos="fade-up">
                                     <img class="object-fit h-100" src="styles/images/result/4.jpg" alt="">
                                 </span>

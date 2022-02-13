@@ -30,13 +30,13 @@
                     <div class="max1295 mx-auto pt-4 pt-md-5 py-lg-5 mt-xl-4 mb-lg-5">
                         <div class="item">
                             <h2 class="d-none">Workplace</h2>
-                            <a class="d-block d-lg-flex row g-0" href="./projects-1">
+                            <a class="d-block d-lg-flex row g-0" href="projects-1.php">
                                 <span class="text-block col-lg-6 d-flex order-lg-2 align-items-center position-relative pb-4 pb-lg-0 mt-lg-5 ps-4 ps-lg-0 ps-xl-5 pe-4">
                                     <span class="text-inner d-sm-flex z-2 position-relative pt-4 ps-xxl-4">
                                         <span class="number d-block PinyonScript fz-46 text-black pe-4" data-aos="fade-up">01</span>
                                         <span class="d-block">
                                             <span class="title tlt_2 d-block fz-50 fw-500 lh-1 text-uppercase les1 mb-0" data-aos="fade-up">Workplace</span>
-                                            <span class="subtitle d-block fz-26 fw-600 les2" data-aos="fade-up" data-aos-delay="100">廠辦</span>
+                                            <span class="subtitle d-block fz-26 fw-600 text-black les2" data-aos="fade-up" data-aos-delay="100">廠辦</span>
                                             <span class="d-block NotoSansTC lh-165 pt-3" data-aos="fade-up" data-aos-delay="150">打造跨世紀舒適工作環境，為員工創造構築一個良好且有效能的工作空間，提昇工作效率、營造公司對外專業形象。</span>
                                         </span>
                                     </span>
@@ -50,13 +50,13 @@
                         </div>
                         <div class="item">
                             <h2 class="d-none">Residential</h2>
-                            <a class="d-block d-lg-flex row g-0" href="./projects-2">
+                            <a class="d-block d-lg-flex row g-0" href="projects-2.php">
                                 <span class="text-block col-lg-6 d-flex align-items-center position-relative pb-4 pb-lg-0 mt-lg-5 pe-xxl-5 ps-4 pt-4 pt-lg-0">
                                     <span class="text-inner d-sm-flex z-2 position-relative pt-4 pe-4 ms-auto">
                                         <span class="number d-block PinyonScript fz-46 text-black pe-4" data-aos="fade-up">02</span>
                                         <span class="d-block">
                                             <span class="title tlt_2 d-block fz-50 fw-500 lh-1 text-uppercase les1 mb-0" data-aos="fade-up">Residential</span>
-                                            <span class="subtitle d-block fz-26 fw-600 les2" data-aos="fade-up" data-aos-delay="100">住宅</span>
+                                            <span class="subtitle d-block fz-26 fw-600 text-black les2" data-aos="fade-up" data-aos-delay="100">住宅</span>
                                             <span class="d-block NotoSansTC lh-165 pt-3" data-aos="fade-up" data-aos-delay="150">以空間對話為核心，替家人、朋友、孩子、寵物、夥伴創造舒適自由的共生環境，實現所有家的想像。</span>
                                         </span>
                                     </span>

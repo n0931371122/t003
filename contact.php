@@ -77,7 +77,7 @@
                             <span class="tlt_2 d-inline-block" data-aos="fade-up">QUESTION?</span>
                         </h2>
                         <p class="text-center" data-aos="fade-up">若您對我們公司有興趣或疑問，歡迎隨時來信聯絡，我們會盡快回覆您。 </p>
-                        <form id="contactForm" class="form pt-md-5 mt-4" action="./contact">
+                        <form id="contactForm" class="form pt-md-5 mt-4" action="contact.php">
                             <div class="row">
                                 <div class="col-md-6 mb-3" data-aos="fade-up">
                                     <div class="form-field position-relative d-flex align-items-center">

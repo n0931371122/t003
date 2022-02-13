@@ -20,7 +20,10 @@ $(function (){
             $("header .menu-section .number-block .now").text(1);
         });
         $(".mouse").click(function(){
-            $(window).scrollTop(windowH - 80);
+           let modify= windowW>767?80:56;
+            $("html,body").animate({
+                scrollTop:windowH - modify
+            },800);
         });
         $(window).scroll(function(){
             $(window).scrollTop()==0?$("html").removeClass("scrollMode"):$("html").addClass("scrollMode");
@@ -183,7 +186,11 @@ $(function (){
         $(this).html(html)
     });
 
-
+    $(".gotop").click(function(){
+        $("html,body").animate({
+            scrollTop:0
+        },800);
+    });
 
     
 
@@ -198,8 +205,8 @@ $(function (){
         windowH=$(window).height();
         headerH=$("header").height();
         windowW<1400?$("[data-aos-delay]").removeAttr("data-aos-delay"):"";
-        $("header .menu-section").height(windowH);
         $(".banner-section").height(windowH);
+        $(".banner-section .jqimgFill").height(windowH);
     }
 
 })

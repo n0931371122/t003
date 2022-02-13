@@ -10,7 +10,7 @@
     <?php include "header.php"; ?>
     <!-- main ======================================================================================= -->
     <main>
-        <div id="project">
+        <div id="project" class="overflow-hidden">
             <h1 class="d-none">美麗山林</h1>
             <div class="banner-section">
                 <div class="jqimgFill position-fixed">
@@ -61,7 +61,7 @@
                                         <span>官網連結</span>
                                         <i class="icon-link ms-1"></i>
                                     </a>
-                                    <a class="link d-flex align-items-center NotoSansTC fw-bold les1" href="./contact">
+                                    <a class="link d-flex align-items-center NotoSansTC fw-bold les1" href="contact.php">
                                         <span>預約賞屋</span>
                                         <i class="icon-mail-2 fz-12 ms-2"></i>
                                     </a>
@@ -102,7 +102,7 @@
                         <div class="swiper-pagination Jost fz-15 text-black"></div>
                     </div>
                     <div class="d-table mx-auto mt-xl-5 pt-md-4" data-aos="fade-up">
-                        <a class="back d-block text-black position-relative text-hover-white bg-hover-black" href="./projects-1">
+                        <a class="back d-block text-black position-relative text-hover-white bg-hover-black" href="projects-1.php">
                             <span>返回列表</span>
                             <i class="icon-arrow d-none d-md-block text-black position-absolute"></i>
                         </a>

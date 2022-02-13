@@ -26,8 +26,9 @@
                             </div>
                             <p class="NotoSansTC lh-17" data-aos="fade-up">從『人』為出發的設計，是極星設計團隊對於設計的中心概念。舒適．就是唯一的風格，以人為本，讓設計滿足使用者需求。專長住宅設計、辦公室裝潢、店面設計裝潢、別墅等。</p>
                             <div data-aos="fade-up">
-                                <a class="more d-table NotoSansTC fw-500 text-black text-hover-red pe-5 pb-2 mt-5" href="./designer">
-                                    <span class="me-3">觀看其他設計師</span>
+                                <a class="more position-relative d-table NotoSansTC fw-500 text-black overflow-hidden mt-5" href="designer.php">
+                                    <span class="fw-500 d-block pe-5 pb-2 pb-1">觀看其他設計師</span>
+                                    <img src="styles/images/designer-projects/arrow.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -38,7 +39,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">美麗山林</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">27</span>
@@ -46,7 +47,7 @@
                                             <span class="d-block">47</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">預售屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">預售屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">
@@ -69,7 +70,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">甲山林帝景</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">45</span>
@@ -77,7 +78,7 @@
                                             <span class="d-block">85</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">預售屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">預售屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">
@@ -100,7 +101,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">美術白天鵝</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">40</span>
@@ -108,7 +109,7 @@
                                             <span class="d-block">45</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">預售屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">預售屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">
@@ -131,7 +132,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">圓富登峰</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">45</span>
@@ -139,7 +140,7 @@
                                             <span class="d-block">85</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">新成屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">新成屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">
@@ -162,7 +163,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">美麗山林</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">27</span>
@@ -170,7 +171,7 @@
                                             <span class="d-block">47</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">預售屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">預售屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">
@@ -193,7 +194,7 @@
                         <div class="mb-5 pb-xl-4" data-aos="fade-up">
                             <h2 class="d-none">甲山林帝景</h2>
                             <div class="d-table d-md-block mx-auto">
-                                <a class="projectItem position-relative d-flex" href="./project">
+                                <a class="projectItem position-relative d-flex" href="project.php">
                                     <span class="info-inner d-block Jost fz-16 text-black text-center" data-aos="fade-left">
                                         <span class="d-table">
                                             <span class="d-block">45</span>
@@ -201,7 +202,7 @@
                                             <span class="d-block">85</span>
                                             <span class="d-block">坪</span>
                                             <span class="d-block NotoSansTC">．</span>
-                                            <span class="d-block writing-vertical les3">預售屋</span>
+                                            <span class="d-block writing-vertical les3 lh-12 mx-auto">預售屋</span>
                                         </span>
                                     </span>
                                     <span class="main-inner d-block">

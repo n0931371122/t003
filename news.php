@@ -28,14 +28,14 @@
                 <div class="max1276 mx-auto pt-lg-5 mt-lg-2">
                     <span class="dec-line d-block position-relative fz-28 fw-bold text-uppercase text-center text-black les5 mb-3" data-aos="fade-up">overview</span>
                     <div class="d-flex justify-content-center NotoSansTC text-black les2" data-aos="fade-up" data-aos-delay="50">
-                        <a class="mx-2 mx-md-4 text-red" href="./news">所有消息</a>
-                        <a class="mx-2 mx-md-4" href="./news">新聞訊息</a>
-                        <a class="mx-2 mx-md-4" href="./news">媒體報導</a>
+                        <a class="mx-2 mx-md-4 text-red" href="news.php">所有消息</a>
+                        <a class="mx-2 mx-md-4" href="news.php">新聞訊息</a>
+                        <a class="mx-2 mx-md-4" href="news.php">媒體報導</a>
                     </div>
                     <div class="pt-4 pt-md-5 pb-md-4 mt-2">
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">十大推案熱區出爐 建商步步為營相準這幾區</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Dec</span>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">全台最大公辦都更招商案評選 特貿三吸引民間投</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Nov</span>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">京華城標脫，目標開發為頂級商辦園區</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Nov</span>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">【房市暴衝】無懼總統大選　928檔期推案上看</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Oct</span>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">京華城標脫，目標開發為頂級商辦園區</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Nov</span>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="pb-5 mb-3">
                             <h2 class="d-none">【房市暴衝】無懼總統大選　928檔期推案上看</h2>
-                            <a class="newItem d-lg-flex" href="./new">
+                            <a class="newItem d-lg-flex" href="new.php">
                                 <span class="date-inner d-flex align-items-end d-lg-block position-relative py-3 pb-lg-0 pt-lg-4" data-aos="fade-up">
                                     <span class="d-block fz-40 text-black lh-125 my-lg-2 pb-lg-2">
                                         <span class="d-lg-block">Oct</span>

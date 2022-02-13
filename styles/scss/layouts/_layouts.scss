@@ -24,7 +24,7 @@ html{
 					transition: transform .6s,opacity .6s;
 					transition-delay: 1s;
 				}
-				.society a{
+				.society div{
 					opacity: 1;
 					transform: none;
 					
@@ -219,7 +219,7 @@ header{
 	.menu-toggle{
 		transition: all .3s;
 		&:hover{
-			color:red;
+			color:$red;
 			.toggle .bar{
 				background: $red !important;
 				&:nth-child(1){
@@ -293,12 +293,14 @@ header{
 	//menu
 	.menu-section {
 		top: 0; 
+		bottom: 0;
 		left: -100%;
 		width: 980px;
 		color:black;
 		padding-left: 100px;
 		transition: all .6s;
 		padding-top: 64px;
+		
 		button{
 			i{
 				font-size: 28px;
@@ -585,38 +587,43 @@ header{
 			}
 		}
 		.society{
-			a{
-				width: 70px;
-				height: 70px;
-				border:1px solid rgba(0,0,0,0.2);
-				color:black;
-				transition: all .3s;
+			div{
 				transform: translateY(10px);
 				opacity: 0;
-				&:hover{
-					background: black;
-					color:white;
-				}
-				&+a{
+				transition: all .3s;
+				&+div{
 					margin-left: 40px;
 				}
-			}
-			.icon-fb {
-				font-size: 20px;
-			}
-			.icon-ig{
-				font-size: 20px;
-			}
-			.icon-line {
-				font-size: 19px;
+			
+				a{
+					width: 70px;
+					height: 70px;
+					border:1px solid rgba(0,0,0,0.2);
+					color:black;
+					transition: all .3s;
+
+					&:hover{
+						background: black;
+						color:white;
+					}
+				}
+				.icon-fb {
+					font-size: 20px;
+				}
+				.icon-ig{
+					font-size: 20px;
+				}
+				.icon-line {
+					font-size: 19px;
+				}
 			}
 		}
 	}
 	.search-section {
 		top: 0;
+		bottom: 0;
 		left: -100%;
 		width: 980px;
-		height: 100vh;
 		transition: all .6s;
 		padding-top: 64px; 
 		.wrapper{
@@ -733,7 +740,7 @@ header{
 			}
 			.scrollbarY{
 				margin-top: 20px !important;
-				height: calc(100vh - 280px);
+				height: calc(100vh - 320px);
 			}
 			.menu{
 				li {
@@ -993,36 +1000,41 @@ header{
 
 			}
 			.society{	
-				a{
-					width: 50px;
-					height: 50px;
-					&+a{
-						margin-left: 11px;
-					}
-					&:nth-child(1){
+				div{
+					&:nth-child(1) {
 						transition-delay: .4s !important;
 					}
-					&:nth-child(2){
-						transition-delay: .425s!important;
+
+					&:nth-child(2) {
+						transition-delay: .425s !important;
 					}
-					&:nth-child(3){
+
+					&:nth-child(3) {
 						transition-delay: .45s !important;
 					}
-				}
-				.icon-fb{
-					font-size: 16px;
-				}
-				.icon-ig{
-					font-size: 18px;
-				}
-				.icon-line{
-					font-size: 17px;
+					&+div{
+						margin-left: 11px;
+					}
+					a{
+						width: 50px;
+						height: 50px;
+
+					}
+					.icon-fb{
+						font-size: 16px;
+					}
+					.icon-ig{
+						font-size: 18px;
+					}
+					.icon-line{
+						font-size: 17px;
+					}
 				}
 			}
 
 		}
 		.search-section{
-			background: rgba(255, 255, 255, 0.95) !important;
+			background: rgba(255, 255, 255, 1) !important;
 			transition: all .3s;
 			padding: 24px !important;
 			width: 100%;

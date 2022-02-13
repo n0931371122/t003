@@ -110,7 +110,7 @@
                                                 <li>底價表價製定與銷售控制步驟</li>
                                             </ul>
                                         </div>
-                                        <a class="match-link position-relative d-table text-black overflow-hidden" href="./designer">
+                                        <a class="match-link position-relative d-table text-black overflow-hidden" href="designer.php">
                                             <span class="fw-500 d-block pe-5 pb-1">配合設計師</span>
                                             <img src="styles/images/services/match-arrow.png" alt="">
                                         </a>

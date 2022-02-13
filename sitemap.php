@@ -23,10 +23,10 @@
                             </h2>
                             <ul class="ns NotoSansTC">
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./news">新聞訊息</a>
+                                    <a class="text-hover-red" href="news.php">新聞訊息</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./news">公告訊息</a>
+                                    <a class="text-hover-red" href="news.php">公告訊息</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,7 +34,7 @@
                     <div class="mb-4 mb-md-5 pb-md-3" data-aos="fade-up">
                         <div class="item position-relative">
                             <h2 class="fz-22 fw-500 text-black text-hover-red mb-3 mb-md-4 pt-4">
-                                <a class="text-hover-red" href="./about">關於潤居</a>
+                                <a class="text-hover-red" href="about.php">關於潤居</a>
                             </h2>
                         </div>
                     </div>
@@ -45,10 +45,10 @@
                             </h2>
                             <ul class="ns NotoSansTC">
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./projects-1">廠辦</a>
+                                    <a class="text-hover-red" href="projects-1.php">廠辦</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./projects-2">住宅</a>
+                                    <a class="text-hover-red" href="projects-2.php">住宅</a>
                                 </li>
                             </ul>
                         </div>
@@ -60,19 +60,19 @@
                             </h2>
                             <ul class="ns NotoSansTC">
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./services?nav=1">土地評估</a>
+                                    <a class="text-hover-red" href="services.php?nav=1">土地評估</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./services?nav=2">空間設計</a>
+                                    <a class="text-hover-red" href="services.php?nav=2">空間設計</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./services?nav=3">物業管理</a>
+                                    <a class="text-hover-red" href="services.php?nav=3">物業管理</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./services?nav=4">產品規劃</a>
+                                    <a class="text-hover-red" href="services.php?nav=4">產品規劃</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./services?nav=5">產品銷售</a>
+                                    <a class="text-hover-red" href="services.php?nav=5">產品銷售</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,10 +84,10 @@
                             </h2>
                             <ul class="ns NotoSansTC">
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./contact?nav=information">聯絡資訊</a>
+                                    <a class="text-hover-red" href="contact.php?nav=information">聯絡資訊</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./contact?nav=form">諮詢表單</a>
+                                    <a class="text-hover-red" href="contact.php?nav=form">諮詢表單</a>
                                 </li>
                             </ul>
                         </div>
@@ -99,10 +99,10 @@
                             </h2>
                             <ul class="ns NotoSansTC">
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./sitemap">網站地圖</a>
+                                    <a class="text-hover-red" href="sitemap.php">網站地圖</a>
                                 </li>
                                 <li class="mb-2 pb-md-1">
-                                    <a class="text-hover-red" href="./privacy">隱私權政策</a>
+                                    <a class="text-hover-red" href="privacy.php">隱私權政策</a>
                                 </li>
                             </ul>
                         </div>

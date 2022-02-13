@@ -15,11 +15,17 @@
         width: 26.5%;
         top: 160px;
         .more {
-            background: url(images/designer-projects/arrow.png);
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: left;
-            background-size: 100%;
+            &:hover {
+                img {
+                    animation: arrowmove .6s linear 0s 1 forwards;
+                }
+            }
+
+            img {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
         }
     }
     .projects-section{

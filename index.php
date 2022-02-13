@@ -19,7 +19,7 @@
                     <img class="logo mb-4 mb-md-3 mb-xl-5 pb-2 pt-4" src="styles/images/common/logo-red.svg" alt="">
                     <ul class="ns menu">
                         <li class="position-relative mb-4 pb-3">
-                            <a class="d-table position-relative z-1 mx-auto" href="./news">
+                            <a class="d-table position-relative z-1 mx-auto" href="news.php">
                                 <span class="d-block les1">最新消息</span>
                                 <span class="d-block CormorantInfant fz-60 fw-500 lh-1 les2">HOT NEWS</span>
                             </a>
@@ -28,7 +28,7 @@
                             </div>
                         </li>
                         <li class="position-relative mb-4 pb-3">
-                            <a class="d-table position-relative z-1 mx-auto" href="./about">
+                            <a class="d-table position-relative z-1 mx-auto" href="about.php">
                                 <span class="d-block les1">關於潤居</span>
                                 <span class="d-block CormorantInfant fz-60 fw-500 lh-1 les2">ABOUT ZOKU SUMI</span>
                             </a>
@@ -37,7 +37,7 @@
                             </div>
                         </li>
                         <li class="position-relative mb-4 pb-3">
-                            <a class="d-table position-relative z-1 mx-auto" href="./cases">
+                            <a class="d-table position-relative z-1 mx-auto" href="cases.php">
                                 <span class="d-block les1">服務案例</span>
                                 <span class="d-block CormorantInfant fz-60 fw-500 lh-1 les2">PROJECTS</span>
                             </a>
@@ -46,7 +46,7 @@
                             </div>
                         </li>
                         <li class="position-relative mb-4 pb-3">
-                            <a class="d-table position-relative z-1 mx-auto" href="./services">
+                            <a class="d-table position-relative z-1 mx-auto" href="services.php">
                                 <span class="d-block les1">服務項目</span>
                                 <span class="d-block CormorantInfant fz-60 fw-500 lh-1 les2">SERVICE</span>
                             </a>
@@ -55,7 +55,7 @@
                             </div>
                         </li>
                         <li class="position-relative mb-4 pb-3">
-                            <a class="d-table position-relative z-1 mx-auto" href="./contact">
+                            <a class="d-table position-relative z-1 mx-auto" href="contact.php">
                                 <span class="d-block les1">聯絡我們</span>
                                 <span class="d-block CormorantInfant fz-60 fw-500 lh-1 les2">CONTACT</span>
                             </a>
